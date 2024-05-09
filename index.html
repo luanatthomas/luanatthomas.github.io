@@ -6,10 +6,10 @@
 	<link rel="icon" href="img/ico/me.ico" />
 	<title>Luana Thomas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="./css/layout.css">
-	<link rel="stylesheet" href="./css/typography.css">
-	<link rel="stylesheet" href="./css/utilities.css">
-	<script defer src="./js/script.js"></script>
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/typography.css">
+	<link rel="stylesheet" href="css/utilities.css">
+	<script defer src="js/script.js"></script>
 </head>
 
 <body>
@@ -18,19 +18,17 @@
 			display: flex;
 			justify-content: flex-end;
 		}
-
 		.button-container-right {
 			display: flex;
 			justify-content: flex-start;
 		}
-
 		.button {
 			margin-left: 5px;
 		}
 	</style>
 
 	<div class="navbar">
-		<a class="nav-title-link" href="./index.html">
+		<a class="nav-title-link" href="index.html">
 			<span class="nav-title">Luana Thomas</span>
 			<div class="button-container">
 				<a class="button" onclick="switchLanguage('en')">
@@ -57,9 +55,9 @@
 				<div class="button-container-right">
 					<a class="button" id="my-work-link">
 						<span id="botao-projetos" class="button-text">Check out my projects</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
 					</a>
-					<a href="Currículo - Inglês.pdf" id="curriculum-link" target="_blank" class="button">
+					<a href="docs/Currículo - Inglês.pdf" id="curriculum-link" target="_blank" class="button">
 						<span id="curriculo-download" class="button-text">Resume download</span>
 					</a>
 				</div>
@@ -94,70 +92,72 @@
 			<span id="projetos" class="subheader-text">My projects</span>
 			<br>
 			<div class="projects-container">
-
 				<div class="project-card">
-					<img src="img/cover/icons/senses.png" class="project-image">
+					<img src="img/cover/senses.png" class="project-image">
 					<div class="project-card-text-container">
 						<div class="subheader-text project-title">Senses</div>
 						<div id="senses" class="body-text project-card-text">Developed in one month, Senses is a card
 							game that explores players' emotions, fostering debates and reflections.</div>
 					</div>
-					<!-- <a class="button" href="project-pages/senses.html">
+					<a class="button" href="project-pages/senses.html">
 						<span id="ver-mais1" class="button-text">Read more</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-					</a> -->
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
+					</a>
 				</div>
 
 				<div class="project-card">
-					<img src="img/cover/icons/onkey.png" class="project-image">
+					<img src="img/cover/onkey.png" class="project-image">
 					<div class="project-card-text-container">
 						<div class="subheader-text project-title">OnKey</div>
-						<div id="onkey" class="body-text project-card-text">OnKey is an accessible virtual piano
-							developed in 2 months.</div>
+						<div id="onkey" class="body-text project-card-text">
+							OnKey is an accessible virtual piano developed in 2 months where you can learn to 
+							play various classical songs on the virtual piano, or use the sheet music to play o
+							n your physical piano.
+						</div>
 					</div>
-					<!-- <a class="button" href="project-pages/onkey.html">
+					<a class="button" href="project-pages/onkey.html">
 						<span id="ver-mais2" class="button-text">Read more</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-					</a> -->
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
+					</a>
 				</div>
 
 				<div class="project-card">
-					<img src="img/cover/icons/cabide.png" class="project-image">
+					<img src="img/cover/cabide.png" class="project-image">
 					<div class="project-card-text-container">
 						<div class="subheader-text project-title">Cabide</div>
 						<div id="cabide" class="body-text project-card-text">Cabide is a virtual wardrobe where users
 							can create outfits with their own clothes from anywhere. Developed in 2 months.</div>
 					</div>
-					<!-- <a class="button" href="project-pages/cabide.html">
+					<a class="button" href="project-pages/cabide.html">
 						<span id="ver-mais3" class="button-text">Read more</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-					</a> -->
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
+					</a>
 				</div>
 
 				<div class="project-card">
-					<img src="img/cover/icons/byteverse.png" class="project-image">
+					<img src="img/cover/byteverse.png" class="project-image">
 					<div class="project-card-text-container">
 						<div class="subheader-text project-title">ByteVerse</div>
 						<div id="byteverse" class="body-text project-card-text">A game inspired by Space Invaders,
 							developed in just one week, using the SpriteKit framework.</div>
 					</div>
-					<!-- <a class="button" href="project-pages/byteverse.html">
+					<a class="button" href="project-pages/byteverse.html">
 						<span id="ver-mais4" class="button-text">Read more</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-					</a> -->
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
+					</a>
 				</div>
 
 				<div class="project-card">
-					<img src="img/cover/icons/flipty.png" class="project-image">
+					<img src="img/cover/flipty.png" class="project-image">
 					<div class="project-card-text-container">
 						<div class="subheader-text project-title">Flipty</div>
 						<div id="flipty" class="body-text project-card-text">Developed in two weeks, Flipty is an app
 							that brings classic decision-making to your fingertips, on iPhone or Apple Watch.</div>
 					</div>
-					<!-- <a class="button" href="project-pages/flipty.html">
+					<a class="button" href="project-pages/flipty.html">
 						<span id="ver-mais5" class="button-text">Read more</span>
-						<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-					</a> -->
+						<image src="img/icons/arrow-right.svg" class="right-arrow-icon" />
+					</a>
 				</div>
 			</div>
 		</div>
@@ -165,13 +165,13 @@
 
 	<div id="footer">
 		<a class="icon-link" target="_blank" href="https://www.instagram.com/luanatthomas/">
-			<image src="./assets/icons/instagram.svg" class="footer-icon" />
+			<image src="img/icons/instagram.svg" class="footer-icon" />
 		</a>
 		<a class="icon-link" target="_blank" href="https://github.com/luanatthomas">
-			<image src="./assets/icons/github.svg" class="footer-icon" />
+			<image src="img/icons/github.svg" class="footer-icon" />
 		</a>
 		<a class="icon-link" href="mailto:luana.thomas@hotmail.com">
-			<image src="./assets/icons/mail.svg" class="footer-icon" />
+			<image src="img/icons/mail.svg" class="footer-icon" />
 		</a>
 	</div>
 
@@ -196,7 +196,7 @@
 					'ver-mais4': "Read more",
 					'ver-mais5': "Read more",
 					'senses': "Developed in one month, Senses is a card game that explores players' emotions, fostering debates and reflections.",
-					'onkey': "OnKey is an accessible virtual piano developed in 2 months.",
+					'onkey': "OnKey is an accessible virtual piano where you can learn to play various classical songs, or use the sheet music to play on your physical piano.",
 					'cabide': "Cabide is a virtual wardrobe where users can create outfits with their own clothes from anywhere. Developed in 2 months.",
 					'byteverse': "A game inspired by Space Invaders, developed in just one week, using the SpriteKit framework.",
 					'flipty': "Developed in two weeks, Flipty is an app that brings classic decision-making to your fingertips, on iPhone or Apple Watch.",
@@ -216,7 +216,7 @@
 					'ver-mais4': "Veja mais",
 					'ver-mais5': "Veja mais",
 					'senses': "Desenvolvido em um mês, o Senses é um jogo de cartas que explora as emoções dos jogadores, gerando debates e reflexões.",
-					'onkey': "OnKey é um piano virtual, desenvolvido em 2 meses.",
+					'onkey': "OnKey é um piano virtual acessível onde você pode aprender a tocar diversas músicas clássicas ou usar partituras para tocar em seu piano físico.",
 					'cabide': "Cabide é um guarda-roupa virtual, onde o usuário pode montar looks com suas próprias roupas estando em qualquer lugar.",
 					'byteverse': "Jogo inspirado em Space Invaders, desenvolvido em apenas uma semana, utilizando o framework SpriteKit.",
 					'flipty': "Desenvolvido em duas semanas, o Flipty é um aplicativo que traz a tomada de decisões clássica ao seu alcance, no iPhone ou Apple Watch.",
@@ -253,8 +253,8 @@
 		// const language = localStorage.getItem('language');
 
 		function updateCurriculumLink(language) {
-			const englishCurriculumLink = 'Currículo - Inglês.pdf';
-			const portugueseCurriculumLink = 'Curriculo - Português.pdf';
+			const englishCurriculumLink = 'docs/Currículo - Inglês.pdf';
+			const portugueseCurriculumLink = 'docs/Curriculo - Português.pdf';
 
 			const curriculumLink = document.getElementById('curriculum-link');
 			const curriculumDownloadText = document.getElementById('curriculo-download');
@@ -267,8 +267,6 @@
 				curriculumDownloadText.textContent = 'Download do currículo';
 			}
 		}
-
-
 	</script>
 </body>
 

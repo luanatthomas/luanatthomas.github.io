@@ -166,6 +166,26 @@ body {
       width: calc((100% - 16px) / 2);
     }
 
+    .gallery-image-container.half-width-video {
+      width: calc((100% - 80px) / 2);
+    }
+
+    .gallery-image-container.third-width {
+      width: calc((100% - 32px) / 3);
+    }
+
+    .gallery-image-container.quarter-width {
+      width: calc((100% - 64px) / 4);
+    }
+
+    .gallery-image-container.fifth-width {
+      width: calc((100% - 128px) / 5);
+    }
+
+    .gallery-image-container.gap {
+      width: calc((100% ) / 10);
+    }
+
     .gallery-image {
       width: 100%;
       height: auto;
